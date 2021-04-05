@@ -155,15 +155,15 @@ li > input[type="text"] {
 }
 
 /* Edit Task */
-ul li input[type="text"] {
+.main__section-progress__list-item li input[type="text"] {
   display: none;
 }
 
-ul li .edit-mode input[type="text"] {
+.main__section-progress__list-item li .edit-mode input[type="text"] {
   display: inline-block;
   width: 224px;
 }
 
-ul li .edit-mode label {
+.main__section-progress__list-item li .edit-mode label {
   display: none;
 }
